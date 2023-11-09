@@ -24,6 +24,7 @@
 		DB21B36A2AFC4EBF004B9976 /* GlobalConfigs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlobalConfigs.swift; sourceTree = "<group>"; };
 		DB21B36C2AFC5224004B9976 /* MealsResponse+Api.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "MealsResponse+Api.swift"; sourceTree = "<group>"; };
 		DB21B36F2AFC55A9004B9976 /* MealItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MealItemView.swift; sourceTree = "<group>"; };
+		DB21B3712AFC6547004B9976 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		DB579B7A2AF98534003D3BCD /* recipes-excercise.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "recipes-excercise.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DB579B7D2AF98534003D3BCD /* recipes_excerciseApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = recipes_excerciseApp.swift; sourceTree = "<group>"; };
 		DB579B7F2AF98534003D3BCD /* MealsListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MealsListView.swift; sourceTree = "<group>"; };
@@ -76,6 +77,7 @@
 		DB579B7C2AF98534003D3BCD /* recipes-excercise */ = {
 			isa = PBXGroup;
 			children = (
+				DB21B3712AFC6547004B9976 /* Info.plist */,
 				DB579B7D2AF98534003D3BCD /* recipes_excerciseApp.swift */,
 				DB579B812AF98537003D3BCD /* Assets.xcassets */,
 				DB579B832AF98537003D3BCD /* Preview Content */,
@@ -314,9 +316,10 @@
 				DEVELOPMENT_ASSET_PATHS = "\"recipes-excercise/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "recipes-excercise/Info.plist";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = ls;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -342,9 +345,10 @@
 				DEVELOPMENT_ASSET_PATHS = "\"recipes-excercise/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "recipes-excercise/Info.plist";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = ls;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
