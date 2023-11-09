@@ -7,18 +7,31 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		DB21B36B2AFC4EBF004B9976 /* GlobalConfigs.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB21B36A2AFC4EBF004B9976 /* GlobalConfigs.swift */; };
+		DB21B36D2AFC5224004B9976 /* MealsResponse+Api.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB21B36C2AFC5224004B9976 /* MealsResponse+Api.swift */; };
+		DB21B3702AFC55A9004B9976 /* MealItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB21B36F2AFC55A9004B9976 /* MealItemView.swift */; };
 		DB579B7E2AF98534003D3BCD /* recipes_excerciseApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB579B7D2AF98534003D3BCD /* recipes_excerciseApp.swift */; };
-		DB579B802AF98534003D3BCD /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB579B7F2AF98534003D3BCD /* ContentView.swift */; };
+		DB579B802AF98534003D3BCD /* MealsListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB579B7F2AF98534003D3BCD /* MealsListView.swift */; };
 		DB579B822AF98537003D3BCD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DB579B812AF98537003D3BCD /* Assets.xcassets */; };
 		DB579B852AF98537003D3BCD /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DB579B842AF98537003D3BCD /* Preview Assets.xcassets */; };
+		DB579B8C2AF9860E003D3BCD /* MealsResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB579B8B2AF9860E003D3BCD /* MealsResponse.swift */; };
+		DB579B8E2AF989FC003D3BCD /* MealDetailsResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB579B8D2AF989FC003D3BCD /* MealDetailsResponse.swift */; };
+		DB579B902AF98BD7003D3BCD /* MealDetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB579B8F2AF98BD7003D3BCD /* MealDetailsView.swift */; };
+		DB579B932AF9B5C3003D3BCD /* OrderedCollections in Frameworks */ = {isa = PBXBuildFile; productRef = DB579B922AF9B5C3003D3BCD /* OrderedCollections */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		DB21B36A2AFC4EBF004B9976 /* GlobalConfigs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlobalConfigs.swift; sourceTree = "<group>"; };
+		DB21B36C2AFC5224004B9976 /* MealsResponse+Api.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "MealsResponse+Api.swift"; sourceTree = "<group>"; };
+		DB21B36F2AFC55A9004B9976 /* MealItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MealItemView.swift; sourceTree = "<group>"; };
 		DB579B7A2AF98534003D3BCD /* recipes-excercise.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "recipes-excercise.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DB579B7D2AF98534003D3BCD /* recipes_excerciseApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = recipes_excerciseApp.swift; sourceTree = "<group>"; };
-		DB579B7F2AF98534003D3BCD /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		DB579B7F2AF98534003D3BCD /* MealsListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MealsListView.swift; sourceTree = "<group>"; };
 		DB579B812AF98537003D3BCD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DB579B842AF98537003D3BCD /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		DB579B8B2AF9860E003D3BCD /* MealsResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MealsResponse.swift; sourceTree = "<group>"; };
+		DB579B8D2AF989FC003D3BCD /* MealDetailsResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MealDetailsResponse.swift; sourceTree = "<group>"; };
+		DB579B8F2AF98BD7003D3BCD /* MealDetailsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MealDetailsView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -26,12 +39,24 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DB579B932AF9B5C3003D3BCD /* OrderedCollections in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		DB21B36E2AFC5241004B9976 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				DB579B8B2AF9860E003D3BCD /* MealsResponse.swift */,
+				DB579B8D2AF989FC003D3BCD /* MealDetailsResponse.swift */,
+				DB21B36A2AFC4EBF004B9976 /* GlobalConfigs.swift */,
+				DB21B36C2AFC5224004B9976 /* MealsResponse+Api.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
 		DB579B712AF98534003D3BCD = {
 			isa = PBXGroup;
 			children = (
@@ -52,9 +77,12 @@
 			isa = PBXGroup;
 			children = (
 				DB579B7D2AF98534003D3BCD /* recipes_excerciseApp.swift */,
-				DB579B7F2AF98534003D3BCD /* ContentView.swift */,
 				DB579B812AF98537003D3BCD /* Assets.xcassets */,
 				DB579B832AF98537003D3BCD /* Preview Content */,
+				DB21B36E2AFC5241004B9976 /* Model */,
+				DB579B7F2AF98534003D3BCD /* MealsListView.swift */,
+				DB579B8F2AF98BD7003D3BCD /* MealDetailsView.swift */,
+				DB21B36F2AFC55A9004B9976 /* MealItemView.swift */,
 			);
 			path = "recipes-excercise";
 			sourceTree = "<group>";
@@ -83,6 +111,9 @@
 			dependencies = (
 			);
 			name = "recipes-excercise";
+			packageProductDependencies = (
+				DB579B922AF9B5C3003D3BCD /* OrderedCollections */,
+			);
 			productName = "recipes-excercise";
 			productReference = DB579B7A2AF98534003D3BCD /* recipes-excercise.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +142,9 @@
 				Base,
 			);
 			mainGroup = DB579B712AF98534003D3BCD;
+			packageReferences = (
+				DB579B912AF9B5C3003D3BCD /* XCRemoteSwiftPackageReference "swift-collections" */,
+			);
 			productRefGroup = DB579B7B2AF98534003D3BCD /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -137,8 +171,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DB579B802AF98534003D3BCD /* ContentView.swift in Sources */,
+				DB579B8E2AF989FC003D3BCD /* MealDetailsResponse.swift in Sources */,
+				DB579B802AF98534003D3BCD /* MealsListView.swift in Sources */,
+				DB579B902AF98BD7003D3BCD /* MealDetailsView.swift in Sources */,
+				DB21B36D2AFC5224004B9976 /* MealsResponse+Api.swift in Sources */,
 				DB579B7E2AF98534003D3BCD /* recipes_excerciseApp.swift in Sources */,
+				DB21B36B2AFC4EBF004B9976 /* GlobalConfigs.swift in Sources */,
+				DB21B3702AFC55A9004B9976 /* MealItemView.swift in Sources */,
+				DB579B8C2AF9860E003D3BCD /* MealsResponse.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -342,6 +382,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		DB579B912AF9B5C3003D3BCD /* XCRemoteSwiftPackageReference "swift-collections" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/apple/swift-collections.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.0.5;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		DB579B922AF9B5C3003D3BCD /* OrderedCollections */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = DB579B912AF9B5C3003D3BCD /* XCRemoteSwiftPackageReference "swift-collections" */;
+			productName = OrderedCollections;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = DB579B722AF98534003D3BCD /* Project object */;
 }
